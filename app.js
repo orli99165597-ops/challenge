@@ -38,6 +38,7 @@ const paymentStatusLabels = {
 const fairyPreviewGif = "/assets/ai-fairy-preview.gif";
 const poemArtPreviewImage = "/assets/poem-art-preview.png";
 const blogBikePreviewImage = "/assets/blog-bike-preview.png";
+const instagramPreviewGif = "/assets/instagram-preview.gif";
 const appPetGif = "/assets/app-pet.gif";
 const fairyChallengeStart = "2026-07-01";
 const fairyChallengeEnd = "2026-07-22";
@@ -1041,7 +1042,9 @@ function renderChallengeCard(challenge) {
       ? { src: poemArtPreviewImage, className: "fairy-preview poem-preview", title: "이미지 크게 보기", alt: "시화집 챌린지 미리보기" }
       : challenge.type === "blog"
         ? { src: blogBikePreviewImage, className: "fairy-preview blog-preview", title: "이미지 크게 보기", alt: "블로그 글쓰기 챌린지 미리보기" }
-        : null;
+        : challenge.type === "instagram"
+          ? { src: instagramPreviewGif, className: "fairy-preview instagram-preview", title: "GIF 크게 보기", alt: "인스타 릴스 챌린지 미리보기" }
+          : null;
   return `
     <article class="challenge-card">
       ${preview ? `
