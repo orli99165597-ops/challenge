@@ -1094,8 +1094,8 @@ tr:last-child td {
   z-index: 50;
   display: grid;
   place-items: center;
-  width: 112px;
-  height: 156px;
+  width: 104px;
+  height: 146px;
   overflow: hidden;
   padding: 0;
   border: 2px solid rgba(255, 255, 255, 0.78);
