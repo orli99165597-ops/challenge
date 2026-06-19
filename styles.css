@@ -536,10 +536,11 @@ a {
 
 .card-meta {
   display: grid;
-  gap: 7px;
-  margin: 16px 0;
+  gap: 5px;
+  margin: 14px 0;
   color: #344255;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 .card-actions {
