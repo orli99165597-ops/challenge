@@ -36,7 +36,7 @@ const paymentStatusLabels = {
 };
 
 const fairyPreviewGif = "/assets/ai-fairy-preview.gif";
-const poemArtPreviewImage = "/assets/poem-art-preview.png";
+const poemArtPreviewImage = "/assets/poem-art-preview.gif";
 const blogBikePreviewImage = "/assets/blog-bike-preview.gif";
 const instagramPreviewGif = "/assets/instagram-preview.gif";
 const appPetGif = "/assets/app-pet.gif";
